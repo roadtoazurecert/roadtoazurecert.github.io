@@ -30,6 +30,7 @@ if (isBuild) {
 export default defineConfig({
   server: { port: SERVER_PORT },
   site: "https://roadtoazurecert.github.io",
+  base: "/astrosrc",
   integrations: [
     sitemap(),
     tailwind({
